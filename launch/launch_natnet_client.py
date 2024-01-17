@@ -5,7 +5,7 @@ import os
 from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
-    log_level = "warn"
+    log_level = "warn" #"info" #"warn"
 
     ld = LaunchDescription()
     # Create the NatNet client node
